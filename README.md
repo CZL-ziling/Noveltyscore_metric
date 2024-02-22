@@ -17,7 +17,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
     ├── Code                                           Source code folder
     │   ├── get_result                            Code for novelty metrics
     ├── Dataset                                        Dataset folder
-    │   ├── paper-ents.txt                       Extracted entities of papers
+    │   ├── paper-ents.parquet                      Extracted entities of papers
     └── README.md
 ## Dependency packages
 System environment is set up according to the following configuration:
