@@ -1,4 +1,4 @@
-# Research on the Relationship between Team Composition and Novelty of Academic Papers: Based on the Perspective of Fine-grained Knowledge Entities
+# Relationship between Team Composition and Novelty of Academic Papers: Based on the Perspective of Fine-grained Knowledge Entities
 
 ## Overview
 
