@@ -13,12 +13,12 @@ In this study, the novelty of three major conference papers in the field of NLP 
 * The novelty of papers in industrial institutions is significantly lower than that in academic institutions and institutions with mixed academia and industry.
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
 ## Directory structure
-novelty_metric                             Root directory
-├── Code                                           Source code folder
-│   ├── get_result                            Code for novelty metrics
-├── Dataset                                        Dataset folder
-│   ├── paper-ents.txt                       Extracted entities of papers
-└── README.md
+    novelty_metric                             Root directory
+    ├── Code                                           Source code folder
+    │   ├── get_result                            Code for novelty metrics
+    ├── Dataset                                        Dataset folder
+    │   ├── paper-ents.txt                       Extracted entities of papers
+    └── README.md
 ## Dependency packages
 System environment is set up according to the following configuration:
 
