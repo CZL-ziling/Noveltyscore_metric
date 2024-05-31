@@ -10,22 +10,31 @@ In this study, the novelty of three major conference papers in the field of NLP 
 
 ## Main findings
 
-* The novelty of papers in industrial institutions is significantly lower than that in academic institutions and institutions with mixed academia and industry.
+* The novelty of papers in industrial institutions is significantly lower than that in academic institutions and institutions with mixed academia and industrY.
+* ![image](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/883d09f9-8a94-42f9-bb97-b941fb690d1d)
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
+* ![image](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/fb897860-8fb1-44aa-b012-2b82556e87f0)
+
+## Dataset Discription
+
+This study encompasses three datasets: our self-annotated dataset,namely paper-ents.parquet
+
 ## Directory structure
     novelty_metric                             Root directory
-    ├── Code                                           Source code folder
-    │   ├── get_result                            Code for novelty metrics
+    ├── Code                                             Source code folder
+    │    ├── Novelty score calculation.py              Novelty measurement code
+    |    ├── Fine-grained novelty score calculation.py  Fine-grained novelty measurement code
+    Code for novelty metrics
     ├── Dataset                                        Dataset folder
     │   ├── paper-ents.parquet                      Extracted entities of papers
     └── README.md
 ## Dependency packages
 System environment is set up according to the following configuration:
-        pytorch 2.0.1
-        transformers 4.28.1
-        pandas 2.0.0
-        pytorch-crf 0.7.2
-        fasttext 0.9.2
-        flashtext 2.7
-        nltk 3.8.1
-        numpy 1.24.1
+        pytorch 2.0.1  
+        transformers 4.28.1  
+        pandas 2.0.0  
+        pytorch-crf 0.7.2  
+        fasttext 0.9.2  
+        flashtext 2.7  
+        nltk 3.8.1  
+        numpy 1.24.1  
