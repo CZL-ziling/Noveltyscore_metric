@@ -11,13 +11,13 @@ In this study, the novelty of three major conference papers in the field of NLP 
 ## Main findings
 
 * significant differences in the novelty of academic papers are observed among different types of team institutional compositions. It is found that academic institutions and mixed academic and industrial institutions produce papers with higher novelty compared to papers from industrial institutions.
- <div align=center>
+  
  ![WPS图片(2)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/4861f471-3345-4c0f-a367-b82e1b8d7e74)
- </div>
+
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
- <div align=center>
+  
 ![WPS图片(1)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/8c90f3ee-9e08-4ed2-8d2c-f77592babce0)
- </div>
+
 ## Dataset Discription
 
 This study encompasses one datasets: ent-text-79-22.txt
@@ -34,22 +34,26 @@ The "sentence" contains the full-text content of each paper, which contains our 
 'sentence': 'A SNAPSHOT OF <entity_Method>KDS</entity_Method> A KNOWLEDGE DELIVERY SYSTEM SUMMARY <entity_Method>KM</entity_Method> is a computer program which creates multi-paragraph ...'
 ```
 *  Translation of Explanations and Examples for Four Entity Types
+  
 |    Type  |        Description       | Example|
-| -------- | -------------------------|
+| -------- | -------------------------|-------------------------|
 |  Method  | Algorithms, Models, etc. | SVM, LSTM, BERT, Adam, RNN          |
 |  Dataset | Corpora, Lexicons, etc.  | Brown Corpus, Penn Treebank, WordNet|
 |  Metric  | Evaluation metrics       | Accuracy, Precision, Recall, BLEU   |
 |  Tool    | Programming languages, Software, Open-so urce tools, etc.| Python, GIZA++, TensorFlow, PyTorch|
 
+
 ## Novelty score distribution
-#The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
-<div align=center>
+
+The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
+
 ![WPS图片(3)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/e129c306-e6d9-4da8-84a0-cb35ac63abfb)
-</div>
-#we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
-<div align=center>
+
+
+we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
+
 ![WPS图片(4)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/6f2c8a91-90b0-43eb-827c-c1f7ee1ada09)
-</div>
+
 ## Directory structure
     novelty_metric                             Root directory
     ├── Code                                             Source code folder
