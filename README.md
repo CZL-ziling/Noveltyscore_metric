@@ -10,14 +10,35 @@ In this study, the novelty of three major conference papers in the field of NLP 
 
 ## Main findings
 
-* The novelty of papers in industrial institutions is significantly lower than that in academic institutions and institutions with mixed academia and industrY.
-* ![image](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/883d09f9-8a94-42f9-bb97-b941fb690d1d)
+* significant differences in the novelty of academic papers are observed among different types of team institutional compositions. It is found that academic institutions and mixed academic and industrial institutions produce papers with higher novelty compared to papers from industrial institutions. 
+* ![WPS图片(1)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/2e093e1d-608e-46cb-8a76-298f55a5a091)
+* 
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
 * ![image](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/fb897860-8fb1-44aa-b012-2b82556e87f0)
 
 ## Dataset Discription
 
-This study encompasses three datasets: our self-annotated dataset,namely paper-ents.parquet
+This study encompasses one datasets: ent-text-79-22.txt
+
+`./Dataset/ent-text-79-22.txt`   Due to the need for further research, we have provided partial data, including a sample of 500 from the three major conferences in the NLP field from 79 to 22 years. Each paper in the dataset is presented by a dictionary with three main keys, namely "id", "year", and "sentence". 
+The field "id" is used to represent the unique value of th  e paper.   
+"year" is the year in which the paper was published. 
+The "sentence" contains the full-text content of each paper, which contains our annotation entities, which are of four types: methods, datasets, measures, and tools.  
+```
+'id': ['P79-1000', 'P79-1001', 'P79-1002', 'P79-1003', 'P79-1004', 'P79-1005', 'P79-1006', 'P79-1007', 'P79-1008', 'P79-1009', 'P79-1010', 'P79-1011', 'P79-1012', 'P79-1013', 'P79-1014', 'P79-1015', 'P79-1016', 'P79-1017', 'P79-1018']
+'year': ['1979', '1979', '1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979'，'1979']
+'sentence': 'A SNAPSHOT OF <entity_Method>KDS</entity_Method> A KNOWLEDGE DELIVERY SYSTEM SUMMARY <entity_Method>KM</entity_Method> is a computer program which creates multi-paragraph ...'
+```
+*  Translation of Explanations and Examples for Four Entity Types
+|    Type  |        Description       | Example|
+| -------- | -------------------------|
+|  Method  | Algorithms, Models, etc. | SVM, LSTM, BERT, Adam, RNN          |
+|  Dataset | Corpora, Lexicons, etc.  | Brown Corpus, Penn Treebank, WordNet|
+|  Metric  | Evaluation metrics       | Accuracy, Precision, Recall, BLEU   |
+|  Tool    | Programming languages, Software, Open-so urce tools, etc.| Python, GIZA++, TensorFlow, PyTorch|
+
+## Novelty score distribution
+
 
 ## Directory structure
     novelty_metric                             Root directory
@@ -26,7 +47,7 @@ This study encompasses three datasets: our self-annotated dataset,namely paper-e
     |    ├── Fine-grained novelty score calculation.py  Fine-grained novelty measurement code
     Code for novelty metrics
     ├── Dataset                                        Dataset folder
-    │   ├── paper-ents.parquet                      Extracted entities of papers
+    │   ├── ent-text-79-22.txt                     Extracted entities of papers
     └── README.md
 ## Dependency packages
 System environment is set up according to the following configuration:
