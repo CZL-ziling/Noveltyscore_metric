@@ -13,14 +13,22 @@ In this study, the novelty of three major conference papers in the field of NLP 
 * significant differences in the novelty of academic papers are observed among different types of team institutional compositions. It is found that academic institutions and mixed academic and industrial institutions produce papers with higher novelty compared to papers from industrial institutions.
   
 
-<div>
-  <img src=""/>
+<div align=center>
+  <img width="500" height="500" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
 </div>
-
+<div align=center>
+ Fig. 1.Novelty of papers of different institution types
+</div>
 
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
   
-https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20contribution%20of%20fine-grained%20entity%20combinations%20of%20different%20institutional%20types%20to%20novelty.png
+
+<div align=center>
+  <img  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20contribution%20of%20fine-grained%20entity%20combinations%20of%20different%20institutional%20types%20to%20novelty.png"/>
+</div>
+<div align=center>
+ Fig. 2. The contribution of fine-grained entity combinations of different institutional types to novelty
+</div>
 
 ## Dataset Discription
 
