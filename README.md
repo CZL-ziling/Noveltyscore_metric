@@ -6,7 +6,7 @@
 In this study, the novelty of three major conference papers in the field of NLP was measured.Our work includes the followig aspects:
 
 * The purpose of this paper is to analyze the relationship between the type of team institution and the novelty of the paper. First, the author's institution is extracted, the name of the institution is collected through GRID, and the institution data is supplemented with Wikipedia and GeoNames data. The types of team institutions are divided into three categories: academia, mixed academia and industry, and industry.
-* We use Zhang's model to extract the method entities in the paper. The novelty of the paper is measured based on the fine-grained entities extracted. The novelty is further explained from the proportion of atypical entity combinations. The novelty of the measurement was correlated with the type of institution.
+* We use [Zhang's model](https://github.com/ZH-heng/technology_development) to extract the method entities in the paper. The novelty of the paper is measured based on the fine-grained entities extracted. The novelty is further explained from the proportion of atypical entity combinations. The novelty of the measurement was correlated with the type of institution.
 
 ## Main findings
 
