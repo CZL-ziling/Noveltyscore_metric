@@ -14,7 +14,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
   
 
 <div align=center>
-  <img width="500" height="500" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
+  <img width="500" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
 </div>
 <div align=center>
  Fig. 1.Novelty of papers of different institution types
@@ -62,7 +62,12 @@ The "sentence" contains the full-text content of each paper, which contains our 
 
 The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
 
-![WPS图片(3)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/e129c306-e6d9-4da8-84a0-cb35ac63abfb)
+<div align=center>
+  <img width="500" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
+</div>
+<div align=center>
+ Fig. 3.The distribution of ACL paper’s novelty scores
+</div>
 
 
 we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
