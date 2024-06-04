@@ -65,14 +65,14 @@ we analyzed the trend in novelty over time. There was a notable and consistent i
     └── README.md
 ## Dependency packages
 System environment is set up according to the following configuration:
-        pytorch 2.0.1  
-        transformers 4.28.1  
-        pandas 2.0.0  
-        pytorch-crf 0.7.2  
-        fasttext 0.9.2  
-        flashtext 2.7  
-        nltk 3.8.1  
-        numpy 1.24.1  
+- pytorch 2.0.1  
+- transformers 4.28.1  
+- pandas 2.0.0  
+- pytorch-crf 0.7.2  
+- fasttext 0.9.2  
+- flashtext 2.7  
+- nltk 3.8.1  
+- numpy 1.24.1  
 
 
 ## Citation
