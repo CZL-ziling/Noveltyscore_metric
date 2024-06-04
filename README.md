@@ -54,6 +54,16 @@ The "sentence" contains the full-text content of each paper, which contains our 
 |  Metric  | Evaluation metrics       | Accuracy, Precision, Recall, BLEU   |
 |  Tool    | Programming languages, Software, Open-so urce tools, etc.| Python, GIZA++, TensorFlow, PyTorch|
 
+## Method
+
+Firstly, author teams are categorized into three types: academic institutions, industrial institutions, and mixed academic and industrial institutions. Next, the authors extract four types of entities from the full paper: methods, data sets, tools and metric. The novelty of papers is evaluated using entity combination measurement methods. Additionally, pairwise combinations of different types of fine-grained entities are analyzed to assess their contributions to novel papers.
+<div align=center>
+  <img  src=""/>
+</div>
+<div align=center>
+ Fig. 2. The contribution of fine-grained entity combinations of different institutional types to novelty
+</div>
+
 ## Quick start
 * `./Code/Novelty score calculation.py`In this step, the combination of novel entities is determined by the distance of the cosine distance between the entities, and the proportion of the combination of novel entities in the full text of the paper is taken as the novelty score.Follow the notes step by step to get a novelty score for each paper.
 * `./Code/Fine-grained novelty score calculation.py`Through this step, the degree of contribution of different types of entity combinations to the novelty of the novel paper can be further obtained on the basis of the novelty score obtained in the previous step.Enter the relevant files generated in the previous step, and run against the annotations to get fine-grained novelty scores for different entity types.
@@ -71,8 +81,12 @@ The novelty score is between 0 and 1, the closer to 1 is the more novel the pape
 
 
 we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
-
-![WPS图片(4)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/6f2c8a91-90b0-43eb-827c-c1f7ee1ada09)
+<div align=center>
+  <img width="800" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Trends%20in%20novelty%20scores%20of%20academic%20papers%20over%20time.png"/>
+</div>
+<div align=center>
+ Fig. 4. Trends in novelty scores of academic papers over time
+</div>
 
 ## Directory structure
     novelty_metric                                        Root directory
