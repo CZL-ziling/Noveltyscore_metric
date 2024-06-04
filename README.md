@@ -12,7 +12,9 @@ In this study, the novelty of three major conference papers in the field of NLP 
 
 * significant differences in the novelty of academic papers are observed among different types of team institutional compositions. It is found that academic institutions and mixed academic and industrial institutions produce papers with higher novelty compared to papers from industrial institutions.
   
- ![WPS图片(2)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/4861f471-3345-4c0f-a367-b82e1b8d7e74)
+
+  <img srg="https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/4861f471-3345-4c0f-a367-b82e1b8d7e74">
+
 
 * In terms of the proportion of contributions from different types of fine-grained knowledge entity combinations, mixed institutions from academia and industry pay more attention to the novelty of the combination of methodological indicators, and industrial institutions pay more attention to the novelty of the combination of methods and tools.
   
@@ -42,6 +44,9 @@ The "sentence" contains the full-text content of each paper, which contains our 
 |  Metric  | Evaluation metrics       | Accuracy, Precision, Recall, BLEU   |
 |  Tool    | Programming languages, Software, Open-so urce tools, etc.| Python, GIZA++, TensorFlow, PyTorch|
 
+## Quick start
+* `./Code/Novelty score calculation.py`In this step, the combination of novel entities is determined by the distance of the cosine distance between the entities, and the proportion of the combination of novel entities in the full text of the paper is taken as the novelty score.Follow the notes step by step to get a novelty score for each paper.
+* `./Code/Fine-grained novelty score calculation.py`Through this step, the degree of contribution of different types of entity combinations to the novelty of the novel paper can be further obtained on the basis of the novelty score obtained in the previous step.Enter the relevant files generated in the previous step, and run against the annotations to get fine-grained novelty scores for different entity types.
 
 ## Novelty score distribution
 
@@ -55,14 +60,15 @@ we analyzed the trend in novelty over time. There was a notable and consistent i
 ![WPS图片(4)](https://github.com/CZL-ziling/Noveltyscore_metric/assets/156270701/6f2c8a91-90b0-43eb-827c-c1f7ee1ada09)
 
 ## Directory structure
-    novelty_metric                             Root directory
-    ├── Code                                             Source code folder
-    │    ├── Novelty score calculation.py              Novelty measurement code
-    |    ├── Fine-grained novelty score calculation.py  Fine-grained novelty measurement code
+    novelty_metric                                        Root directory
+    ├── Code                                              Source code folder
+    │    ├── Novelty score calculation.py                 Novelty measurement code
+    |    ├── Fine-grained novelty score calculation.py    Fine-grained novelty measurement code
     Code for novelty metrics
-    ├── Dataset                                        Dataset folder
-    │   ├── ent-text-79-22.txt                     Extracted entities of papers
+    ├── Dataset                                           Dataset folder
+    │   ├── ent-text-79-22.txt                            Extracted entities of papers
     └── README.md
+
 ## Dependency packages
 System environment is set up according to the following configuration:
 - pytorch 2.0.1  
