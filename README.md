@@ -61,7 +61,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
   <img  width="800" height="500" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-Grained%20Novelty%20Bias%20Result%20Analysis%20Example%20Diagram.png"/>
 </div>
 <div align=center>
- Fig. 2. The contribution of fine-grained entity combinations of different institutional types to novelty
+ Fig. 3. The contribution of fine-grained entity combinations of different institutional types to novelty
 </div>
 
 ## Quick start
@@ -70,31 +70,32 @@ Firstly, author teams are categorized into three types: academic institutions, i
 
 ## Novelty score distribution
 
-The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
+* The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
 
 <div align=center>
   <img width="500" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
 </div>
 <div align=center>
- Fig. 3.The distribution of ACL paper’s novelty scores
+ Fig. 4.The distribution of ACL paper’s novelty scores
 </div>
 
 
-we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
+* we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
 <div align=center>
   <img width="800" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Trends%20in%20novelty%20scores%20of%20academic%20papers%20over%20time.png"/>
 </div>
 <div align=center>
- Fig. 4. Trends in novelty scores of academic papers over time
+ Fig. 5. Trends in novelty scores of academic papers over time
 </div>
 
-Consistent with the distribution of the number of entities, the combination of entities participating in method entities is relatively high. Among them, the combination of method and indicator entities contributed the highest, followed by the combination of methods and method entities, and the combination of methods and data entities. In addition to methodological combinations, combinations related to indicator entities contribute less to novelty in novel papers.
+* Consistent with the distribution of the number of entities, the combination of entities participating in method entities is relatively high. Among them, the combination of method and indicator entities contributed the highest, followed by the combination of methods and method entities, and the combination of methods and data entities. In addition to methodological combinations, combinations related to indicator entities contribute less to novelty in novel papers.
 <div align=center>
-  <img width="800" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Trends%20in%20novelty%20scores%20of%20academic%20papers%20over%20time.png"/>
+  <img width="900" height="500" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-grained%20novelty%20biases%20the%20score%20distribution.png"/>
 </div>
 <div align=center>
- Fig. 4. Trends in novelty scores of academic papers over time
+ Fig. 6.  Fine-grained novelty biases the score distribution
 </div>
+
 ## Directory structure
     novelty_metric                                        Root directory
     ├── Code                                              Source code folder
