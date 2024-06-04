@@ -73,3 +73,9 @@ System environment is set up according to the following configuration:
         flashtext 2.7  
         nltk 3.8.1  
         numpy 1.24.1  
+
+
+## Citation
+Please cite the following paper if you use this code and dataset in your work.
+    
+>Ziling Chen, Chengzhi Zhang\*, Heng Zhang, Yi Zhao, Chen Yang, and Yang Yang. Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities. ***The Electronic Library**, 2024. （under review)  [[doi]]()  [[Dataset & Source Code]](https://github.com/CZL-ziling/Noveltyscore_metric) 
