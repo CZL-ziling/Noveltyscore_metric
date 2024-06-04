@@ -1,7 +1,7 @@
 # Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities
 ## Overview
 
-**Dataset and source code for paper "Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities".**.
+**Dataset and source code for paper "Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities"**.
 In this study, the novelty of three major conference papers in the field of NLP was measured.Our work includes the followig aspects:
 
 * The purpose of this paper is to analyze the relationship between the type of team institution and the novelty of the paper. First, the author's institution is extracted, the name of the institution is collected through [GRID](https://grid.ac/), and the institution data is supplemented with Wikipedia and [GeoNames data](https://www.geonames.org/). The types of team institutions are divided into three categories: academia, mixed academia and industry, and industry.
