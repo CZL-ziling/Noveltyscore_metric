@@ -14,7 +14,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
   
 
 <div align=center>
-  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
+  <img width=50% height=50%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
 </div>
 <div align=center>
  Fig. 1.Novelty of papers of different institution types
