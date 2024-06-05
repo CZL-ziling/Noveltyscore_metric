@@ -30,6 +30,16 @@ In this study, the novelty of three major conference papers in the field of NLP 
  Fig. 2. The contribution of fine-grained entity combinations of different institutional types to novelty
 </div>
 
+
+## Directory structure
+    novelty_metric                                        Root directory
+    ├── Code                                              Source code folder
+    │    ├── Novelty score calculation.py                 Novelty measurement code
+    |    ├── Fine-grained novelty score calculation.py    Fine-grained novelty measurement code
+    Code for novelty metrics
+    ├── Dataset                                           Dataset folder
+    │   ├── ent-text-79-22.txt                            Extracted entities of papers
+    └── README.md
 ## Dataset Discription
 
 This study encompasses one datasets: ent-text-79-22.txt
@@ -96,15 +106,6 @@ Firstly, author teams are categorized into three types: academic institutions, i
  Fig. 6.  Fine-grained novelty biases the score distribution
 </div>
 
-## Directory structure
-    novelty_metric                                        Root directory
-    ├── Code                                              Source code folder
-    │    ├── Novelty score calculation.py                 Novelty measurement code
-    |    ├── Fine-grained novelty score calculation.py    Fine-grained novelty measurement code
-    Code for novelty metrics
-    ├── Dataset                                           Dataset folder
-    │   ├── ent-text-79-22.txt                            Extracted entities of papers
-    └── README.md
 
 ## Dependency packages
 System environment is set up according to the following configuration:
