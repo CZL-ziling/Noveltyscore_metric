@@ -73,7 +73,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
 * The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
 
 <div align=center>
-  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
+  <img width=50% height=50%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
 </div>
 <div align=center>
  Fig. 4.The distribution of ACL paper’s novelty scores
@@ -82,7 +82,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
 
 * we analyzed the trend in novelty over time. There was a notable and consistent increase in novelty scores between 1995 and 2000.
 <div align=center>
-  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Trends%20in%20novelty%20scores%20of%20academic%20papers%20over%20time.png"/>
+  <img width=50% height=50%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Trends%20in%20novelty%20scores%20of%20academic%20papers%20over%20time.png"/>
 </div>
 <div align=center>
  Fig. 5. Trends in novelty scores of academic papers over time
