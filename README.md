@@ -42,7 +42,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
     └── README.md
 ## Dataset Discription
 
-This study encompasses one datasets: ent-text-79-22.txt, We use [Zhang's model](https://github.com/ZH-heng/technology_development) to extract the method entities in the paper.
+This study encompasses one datasets: ent-text-79-22.txt, We extract entity data using [Zhang's model](https://github.com/ZH-heng/technology_development).
 
 `./Dataset/ent-text-79-22.txt`   Due to the need for further research, we have provided partial data, including a sample of 500 from the three major conferences in the NLP field from 79 to 22 years. Each paper in the dataset is presented by a dictionary with three main keys, namely "id", "year", and "sentence". 
 The field "id" is used to represent the unique value of th  e paper.   
