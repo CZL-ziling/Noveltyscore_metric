@@ -14,7 +14,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
   
 
 <div align=center>
-  <img width="500" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
+  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Novelty%20of%20papers%20of%20different%20institution%20types.png"/>
 </div>
 <div align=center>
  Fig. 1.Novelty of papers of different institution types
@@ -24,7 +24,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
   
 
 <div align=center>
-  <img  width="900" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20contribution%20of%20fine-grained%20entity%20combinations%20of%20different%20institutional%20types%20to%20novelty.png"/>
+  <img  width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20contribution%20of%20fine-grained%20entity%20combinations%20of%20different%20institutional%20types%20to%20novelty.png"/>
 </div>
 <div align=center>
  Fig. 2. The contribution of fine-grained entity combinations of different institutional types to novelty
@@ -58,7 +58,7 @@ The "sentence" contains the full-text content of each paper, which contains our 
 
 Firstly, author teams are categorized into three types: academic institutions, industrial institutions, and mixed academic and industrial institutions. Next, the authors extract four types of entities from the full paper: methods, data sets, tools and metric. The novelty of papers is evaluated using entity combination measurement methods. Additionally, pairwise combinations of different types of fine-grained entities are analyzed to assess their contributions to novel papers.
 <div align=center>
-  <img  width="800" height="500" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-Grained%20Novelty%20Bias%20Result%20Analysis%20Example%20Diagram.png"/>
+  <img  width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-Grained%20Novelty%20Bias%20Result%20Analysis%20Example%20Diagram.png"/>
 </div>
 <div align=center>
  Fig. 3. The contribution of fine-grained entity combinations of different institutional types to novelty
@@ -73,7 +73,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
 * The novelty score is between 0 and 1, the closer to 1 is the more novel the paper, and vice versa, the novelty score of most papers is concentrated between 0.1 and 0.2, and only a small number of papers have a novelty score greater than 0.5. This suggests that most of the papers are still of low novelty, reflecting conservative research methods.
 
 <div align=center>
-  <img width="500" height="400" src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
+  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/The%20distribution%20of%20ACL%20paper%E2%80%99s%20novelty%20scores.png"/>
 </div>
 <div align=center>
  Fig. 4.The distribution of ACL paper’s novelty scores
