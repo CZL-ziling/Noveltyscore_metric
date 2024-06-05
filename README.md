@@ -42,7 +42,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
     └── README.md
 ## Dataset Discription
 
-This study encompasses one datasets: ent-text-79-22.txt
+This study encompasses one datasets: ent-text-79-22.txt, We use [Zhang's model](https://github.com/ZH-heng/technology_development) to extract the method entities in the paper.
 
 `./Dataset/ent-text-79-22.txt`   Due to the need for further research, we have provided partial data, including a sample of 500 from the three major conferences in the NLP field from 79 to 22 years. Each paper in the dataset is presented by a dictionary with three main keys, namely "id", "year", and "sentence". 
 The field "id" is used to represent the unique value of th  e paper.   
@@ -75,7 +75,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
 </div>
 
 ## Quick start
-* `./Code/Novelty score calculation.py`In this step, the combination of novel entities is determined by the distance of the cosine distance between the entities, and the proportion of the combination of novel entities in the full text of the paper is taken as the novelty score.Follow the notes step by step to get a novelty score for each paper.
+* `./Code/Novelty score calculation.ipynb`In this step, the combination of novel entities is determined by the distance of the cosine distance between the entities, and the proportion of the combination of novel entities in the full text of the paper is taken as the novelty score.Follow the notes step by step to get a novelty score for each paper.
 * `./Code/Fine-grained novelty score calculation.py`Through this step, the degree of contribution of different types of entity combinations to the novelty of the novel paper can be further obtained on the basis of the novelty score obtained in the previous step.Enter the relevant files generated in the previous step, and run against the annotations to get fine-grained novelty scores for different entity types.
 
 ## Novelty score distribution
