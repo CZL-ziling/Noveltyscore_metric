@@ -32,7 +32,7 @@ In this study, the novelty of three major conference papers in the field of NLP 
 
 
 ## Directory structure
-    novelty_metric                                        Root directory
+    Noveltyscore_metric                                   Root directory
     ├── Code                                              Source code folder
     │    ├── Novelty score calculation.py                 Novelty measurement code
     |    ├── Fine-grained novelty score calculation.py    Fine-grained novelty measurement code
