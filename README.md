@@ -98,7 +98,7 @@ Firstly, author teams are categorized into three types: academic institutions, i
 
 * Consistent with the distribution of the number of entities, the combination of entities participating in method entities is relatively high. Among them, the combination of method and indicator entities contributed the highest, followed by the combination of methods and method entities, and the combination of methods and data entities. In addition to methodological combinations, combinations related to indicator entities contribute less to novelty in novel papers.
 <div align=center>
-  <img width=80% height=80%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-grained%20novelty%20biases%20the%20score%20distribution.png"/>
+  <img width=90% height=90%  src="https://github.com/CZL-ziling/Noveltyscore_metric/blob/master/img/Fine-grained%20novelty%20biases%20the%20score%20distribution.png"/>
 </div>
 <div align=center>
  Fig. 6.  Fine-grained novelty biases the score distribution
