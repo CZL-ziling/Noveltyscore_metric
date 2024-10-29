@@ -120,4 +120,4 @@ System environment is set up according to the following configuration:
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
     
->Ziling Chen, Chengzhi Zhang\*, Heng Zhang, Yi Zhao, Chen Yang, and Yang Yang. Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities. ***The Electronic Library***, 2024.（in press)  [[doi]](https://doi.org/10.1108/EL-03-2024-0070)  [[Dataset & Source Code]](https://github.com/CZL-ziling/Noveltyscore_metric) 
+>Ziling Chen, Chengzhi Zhang\*, Heng Zhang, Yi Zhao, Chen Yang, and Yang Yang. Exploring the Relationship Between Team Institutional Composition and Novelty in Academic Papers Based on Fine-Grained Knowledge Entities. ***The Electronic Library***, 2024, 42(6): 905-930.  [[doi]](https://doi.org/10.1108/EL-03-2024-0070)  [[Dataset & Source Code]](https://github.com/CZL-ziling/Noveltyscore_metric) 
